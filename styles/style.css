@@ -14,3 +14,6 @@
 .btn-outline-success:hover{
     transform: scale(1.08);
 }
+.container {
+    max-width: 960px;
+}
