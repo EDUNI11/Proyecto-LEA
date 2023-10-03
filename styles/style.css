@@ -1,3 +1,16 @@
 #tamano-logo{
     width: 3em;
 }
+
+#lupa-busqueda{
+    width: 1em;
+    height: auto;
+}
+
+.btn-outline-success{
+    width: 6em;
+}
+
+.btn-outline-success:hover{
+    transform: scale(1.08);
+}
