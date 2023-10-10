@@ -49,5 +49,16 @@ footer{
     width: 8em;
     height: 7em;
 }
+/* Formulario login */
+
+#logobd {position: relative; left: 625px; top: 30px}
+#fila {width: 20em; margin-bottom: 10px}
+#email {float: right; margin-bottom: 10px}
+#contrasenya {float: right}
+
+/*Formulario sign in */
+
+
+
 
 
