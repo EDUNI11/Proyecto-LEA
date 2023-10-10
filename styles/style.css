@@ -10,11 +10,12 @@ body{
 
 #lupa-busqueda{
     width: 1em;
-    height: auto;
+    height: 1em;
 }
 
 .btn-outline-success{
     width: 6em;
+    height: auto;
 }
 
 .btn-outline-success:hover{
@@ -22,19 +23,18 @@ body{
 }
 
 .inicio-sesion{
-    margin-left: 1em;
+    height: auto;
+    margin-left: .3em;
     width: 12em;
     border-radius: .3em;
-    border: 0.1em solid rgba(0, 51, 255, 0.65);
+    border: 0.1em solid rgba(0, 51, 255, 0.45);
 }
 
 .inicio-sesion:hover{
-    font-weight: bold;
-    background-color: rgba(0, 51, 255, 0.65);
+    background-color: rgba(0, 51, 255, 0.45);
     color: white;
-    transform: scale(1.03);
+    transform: scale(1.04);
 }
-
 
 footer{
     position: absolute;
@@ -60,5 +60,22 @@ footer{
 
 
 
+
+.carro-imagen{
+    height: 1.5em;
+}
+
+.carrito-boton{
+    border-radius: .3em;
+    height: auto;
+    border: 0.1em solid rgba(0, 51, 255, 0.45);
+    margin-left: .3em;
+    width: 4.3em;
+}
+
+.carrito-boton:hover{
+    transform: scale(1.05);
+    background-color: rgba(0, 51, 255, 0.45);
+}
 
 
