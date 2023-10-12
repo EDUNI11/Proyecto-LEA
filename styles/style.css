@@ -28,6 +28,9 @@ body{
     width: 12em;
     border-radius: .3em;
     border: 0.1em solid rgba(0, 51, 255, 0.45);
+    text-decoration: none;
+    color: black;
+    padding: .5em;
 }
 
 .inicio-sesion:hover{
@@ -38,11 +41,13 @@ body{
 
 footer{
     position: absolute;
-    width: 98%;
+    width: 100%;
     bottom: 0;
     height: auto;
-    margin-left: 1%;
-    margin-right: 1%;
+    background-color: white;
+    margin: 0;
+    padding-right: 1%;
+    padding-left: 1%;
 }
 
 .logo-carrito{
@@ -71,11 +76,197 @@ footer{
     border: 0.1em solid rgba(0, 51, 255, 0.45);
     margin-left: .3em;
     width: 4.3em;
+    padding-top: .2em;
+    padding-left: .5em;
+    padding-right: .2em;
 }
 
 .carrito-boton:hover{
     transform: scale(1.05);
     background-color: rgba(0, 51, 255, 0.45);
+}
+
+.separador{
+    height: 5em;
+    display: inline-block;
+    width: 100%;
+    background-color: #8d8d8d;
+}
+
+.productos{
+    text-align: center;
+    width: 18em;
+    float: left;
+    margin-left: 4.5em;
+    margin-bottom: 2em;
+    margin-top: 1.9em;
+    padding: 2em;
+}
+
+.iconos{
+    width: 1.5em;
+    height: auto;
+}
+
+.productos:hover{
+    transform: scale(1.03);
+    box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.5);
+}
+
+.productos-enlaces{
+    color: black;
+    text-decoration: none;
+}
+
+.imagen-productos{
+    width: 100%;
+    height: auto;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 32rem;
+}
+
+
+#formulario{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    margin-top: 3em;
+    position: relative;
+    max-width:430px ;
+    width: 100%;
+    background: #FFFF;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border: 0.2em solid;
+}
+
+.container .form{
+    padding: 30px;
+}
+.container .form .title {
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+    color: #2f286a;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin-left: 90px;
+}
+
+.form .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    border-radius: 25px;
+}
+
+.form .input-field{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.input-field input{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0 35px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+}
+
+.input-field input:is(:focus, :valid){
+    border-bottom-color: #2f286a ;
+}
+.input-field i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black;
+    font-size: 20px;
+}
+
+.input-field input:is(:focus, :valid)~ i{
+    color: #72c8b4 ;
+}
+.input-field i.icon{
+    left: 0;
+
+}
+.input-field i.showHidePw{
+    right: 0;
+}
+
+.form .checkbox-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.checkbox-text .checkbox-content{
+    display: flex;
+    align-items: center;
+}
+.checkbox-content input{
+    margin: 0 8px -2px 4px;
+    accent-color:  #2f286a;
+}
+
+.form .text{
+    color: #2f286a;
+    font-size: 14px;
+}
+.form a.text{
+    color: #2f286a;
+    text-decoration: none;
+    font-size: 15px;
+}
+.form a:hover{
+    text-decoration: underline;
+}
+.form .button{
+    margin-top: 35px;
+}
+.form .button input{
+    border-radius: 4px;
+    color: #FFFF;
+    background: linear-gradient(100deg, #B3E1D6, #433D78);
+    letter-spacing: 1px;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button input:hover{
+    background: #95cb6e;
+}
+.form .login-signup{
+    margin-top: 30px;
+    text-align: center;
 }
 
 

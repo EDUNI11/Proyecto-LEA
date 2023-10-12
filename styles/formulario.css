@@ -1,16 +1,13 @@
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
-
-body{
+#formulario{
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background:linear-gradient(30deg, #2f286a, #72c8b4);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 .container{
     position: relative;
@@ -19,8 +16,7 @@ body{
     background: #FFFF;
     border-radius: 10px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    border: 8px solid;
-    border-color: #BCD631;
+    border: 0.2em solid;
 }
 
 .container .form{

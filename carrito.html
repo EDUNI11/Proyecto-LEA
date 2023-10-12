@@ -25,15 +25,18 @@
                     <li class="nav-item">
                         <a class="nav-link" href="">Condiciones</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="catalogo_prueba.html">Catalogo</a>
+                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Plataformas
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">PC</a></li>
-                            <li><a class="dropdown-item" href="#">PlayStation</a></li>
-                            <li><a class="dropdown-item" href="#">Xbox</a></li>
-                            <li><a class="dropdown-item" href="#">Switch</a></li>
+                            <li><a class="dropdown-item" href="pc.html">PC</a></li>
+                            <li><a class="dropdown-item" href="playstation.html">PlayStation</a></li>
+                            <li><a class="dropdown-item" href="xbox.html">Xbox</a></li>
+                            <li><a class="dropdown-item" href="switch.html">Switch</a></li>
                             <!--<li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item" href="#">Something else here</a></li>-->
                         </ul>
@@ -45,8 +48,8 @@
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit"><img id="lupa-busqueda" alt="Lupa Busqueda" src="./img/lupa.png"></button>
-                    <button class="carrito-boton"><img class="carro-imagen" alt="Carrito compra" src="./img/carrito-negro.png"></button>
-                    <button class="inicio-sesion">Iniciar Sesión</button>
+                    <a class="carrito-boton" href="carrito.html"><img class="carro-imagen" alt="Carrito compra" src="./img/carrito-negro.png"></a>
+                    <a class="inicio-sesion" href="formulario-registro.html">Iniciar Sesión</a>
                 </form>
             </div>
         </div>
@@ -66,13 +69,7 @@
             <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"></path>
         </symbol>
     </svg>
-
-    <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
-        <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (light)">
-            <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#sun-fill"></use></svg>
-            <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
-        </button>
-    </div>
+    
 
 
     <div class="container">
@@ -271,11 +268,6 @@
                         <hr class="my-4">
 
                         <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="same-address">
-                            <label class="form-check-label" for="same-address">La dirección de envío es la misma que mi dirección de facturación.</label>
-                        </div>
-
-                        <div class="form-check">
                             <input type="checkbox" class="form-check-input" id="save-info">
                             <label class="form-check-label" for="save-info">Guardar esta información para próximas compras</label>
                         </div>
@@ -311,7 +303,7 @@
 
                             <div class="col-md-6">
                                 <label for="cc-number" class="form-label">Numéro de la tarjeta</label>
-                                <input type="text" class="form-control" id="cc-number" placeholder="" required="">
+                                <input type="number" maxlength="16" class="form-control" id="cc-number" placeholder="" required="">
                                 <div class="invalid-feedback">
                                     El número de la tarjeta de crédito es necesario.
                                 </div>
@@ -319,7 +311,7 @@
 
                             <div class="col-md-3">
                                 <label for="cc-expiration" class="form-label">Fecha de caducidad</label>
-                                <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
+                                <input type="month" class="form-control" id="cc-expiration" placeholder="" required="">
                                 <div class="invalid-feedback">
                                     La fecha de caducidad de la tarjeta es necesaria.
                                 </div>
@@ -327,7 +319,7 @@
 
                             <div class="col-md-3">
                                 <label for="cc-cvv" class="form-label">CVV</label>
-                                <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
+                                <input type="password" maxlength="3" class="form-control" id="cc-cvv" placeholder="" required="">
                                 <div class="invalid-feedback">
                                     El número de seguridad es necesario.
                                 </div>
@@ -351,9 +343,9 @@
         </div>
 
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><img class="iconos" src="./img/signo-de-twitter.png" alt="Twitter"></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><img class="iconos" src="./img/signo-de-instagram.png" alt="Instagram"></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><img class="iconos" src="./img/signo-de-facebook.png" alt="Facebook"></a></li>
         </ul>
     </footer>
 </body>
