@@ -152,7 +152,7 @@ footer{
     background: #FFFF;
     border-radius: 10px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    border: 0.2em solid;
+    padding-bottom: 1.5em;
 }
 
 .container .form{
