@@ -54,17 +54,44 @@ footer{
     width: 8em;
     height: 7em;
 }
-/* Formulario login */
-
-#logobd {position: relative; left: 625px; top: 30px}
-#fila {width: 20em; margin-bottom: 10px}
-#email {float: right; margin-bottom: 10px}
-#contrasenya {float: right}
 
 /*Formulario sign in */
 
+#Nombre{
+    margin-bottom: 10px;
+    float: right;
+}
+#Apellidos{
+    margin-bottom: 10px;
+    float: right;
+}
+#Telefono{
+    margin-bottom: 10px;
+    float: right;
+}
+#Hombre{
+    margin-bottom: 10px;
+}
+#Mujer{
+    margin-bottom: 10px;
+}
+#Otros{
+    margin-bottom: 10px;
+}
+#Email{
+    margin-bottom: 10px;
+    float: right;
+}
+#contra{
+    margin-bottom: 10px;
+    float: right;
+}
+#notif{
+    margin-bottom: 10px;
+    float: right;
+}
 
-
+/*carrito*/
 
 .carro-imagen{
     height: 1.5em;

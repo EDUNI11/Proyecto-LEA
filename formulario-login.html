@@ -2,15 +2,15 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="author" content="Edu Nievas">
-    <link rel="stylesheet" href="./styles/style.css">
+    <meta name="author" content="Luis Chen">
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
     <link rel="icon" type="image/x-icon" href="./img/logo-BD.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <meta charset="UTF-8">
-    <title>Black Diamond</title>
+    <title>Iniciar sesión - Black Diamond</title>
 </head>
-<body>
+
+<body id="formulario">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href=""><img id="tamano-logo" alt="Logo BD" src="./img/logo-BD.png"></a>
@@ -54,24 +54,63 @@
             </div>
         </div>
     </nav>
+<div class="container">
+    <div class="forms">
+        <div class="form login">
+            <img src="./img/logo-BD.png" width="70" height="70">
+            <span class="title"> Black Diamond </span>
+
+            <form action="#">
+                <div class="input-field">
+                    <input type="email" placeholder="Introduce tu email" required>
+                    <i class="fa-solid fa-user icon"></i>
+                </div>
+
+                <div class="input-field">
+                    <input type="password" placeholder="Contraseña" required>
+                    <i class="fa-solid fa-lock icon"></i>
+                </div>
 
 
+                <div class="checkbox-text">
+                    <div class="checkbox-content">
+                        <input type="checkbox" id="logCheck">
+                        <label
+                                for="logCheck" class="text"> Recuérdame </label>
+                    </div>
 
+                    <a href="" class="text">¿Has olvidado tu contraseña?</a>
+                </div>
 
+                <div class="input-field button">
+                    <input type="button" value="Iniciar Sesión">
+                </div>
 
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-            <div class="col-md-4 d-flex align-items-center">
-                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-                    <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-                </a>
-                <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Black Diamond, S.A.</span>
+            </form>
+
+            <div class="login-signup">
+					<span class="text"> ¿No tienes una cuenta?
+						<br>
+						<a href="formulario-registro.html" class="text signup-text" target="_blank"><b>Crea una cuenta</b></a> </button>
+					</span>
             </div>
+        </div>
+    </div>
+</div>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Black Diamond, S.A.</span>
+        </div>
 
-            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                <li class="ms-3"><a class="text-body-secondary" href="#"><img class="iconos" src="./img/signo-de-twitter.png" alt="Twitter"></a></li>
-                <li class="ms-3"><a class="text-body-secondary" href="#"><img class="iconos" src="./img/signo-de-instagram.png" alt="Instagram"></a></li>
-                <li class="ms-3"><a class="text-body-secondary" href="#"><img class="iconos" src="./img/signo-de-facebook.png" alt="Facebook"></a></li>
-            </ul>
-        </footer>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="#"><img class="iconos" src="./img/signo-de-twitter.png" alt="Twitter"></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><img class="iconos" src="./img/signo-de-instagram.png" alt="Instagram"></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><img class="iconos" src="./img/signo-de-facebook.png" alt="Facebook"></a></li>
+        </ul>
+    </footer>
 </body>
+
 </html>

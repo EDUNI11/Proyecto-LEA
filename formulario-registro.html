@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Luis Chen">
@@ -7,110 +7,135 @@
     <link rel="icon" type="image/x-icon" href="./img/logo-BD.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <title>Iniciar sesión - Black Diamond</title>
+    <title>Registrarse - Black Diamond</title>
 </head>
+<body>
 
-<body id="formulario">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href=""><img id="tamano-logo" alt="Logo BD" src="./img/logo-BD.png"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Condiciones</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="catalogo_prueba.html">Catalogo</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Plataformas
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="pc.html">PC</a></li>
-                            <li><a class="dropdown-item" href="playstation.html">PlayStation</a></li>
-                            <li><a class="dropdown-item" href="xbox.html">Xbox</a></li>
-                            <li><a class="dropdown-item" href="switch.html">Switch</a></li>
-                            <!--<li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>-->
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit"><img id="lupa-busqueda" alt="Lupa Busqueda" src="./img/lupa.png"></button>
-                    <a class="carrito-boton" href="carrito.html"><img class="carro-imagen" alt="Carrito compra" src="./img/carrito-negro.png"></a>
-                    <a class="inicio-sesion" href="formulario-registro.html">Iniciar Sesión</a>
-                </form>
-            </div>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href=""><img id="tamano-logo" alt="Logo BD" src="./img/logo-BD.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Condiciones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="catalogo_prueba.html">Catalogo</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Plataformas
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="pc.html">PC</a></li>
+                        <li><a class="dropdown-item" href="playstation.html">PlayStation</a></li>
+                        <li><a class="dropdown-item" href="xbox.html">Xbox</a></li>
+                        <li><a class="dropdown-item" href="switch.html">Switch</a></li>
+                        <!--<li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>-->
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit"><img id="lupa-busqueda" alt="Lupa Busqueda" src="./img/lupa.png"></button>
+                <a class="carrito-boton" href="carrito.html"><img class="carro-imagen" alt="Carrito compra" src="./img/carrito-negro.png"></a>
+                <a class="inicio-sesion" href="formulario-login.html">Iniciar Sesión</a>
+            </form>
         </div>
-    </nav>
+    </div>
+</nav>
+
 <div class="container">
     <div class="forms">
         <div class="form login">
             <img src="./img/logo-BD.png" width="70" height="70">
             <span class="title"> Black Diamond </span>
 
-            <form action="#">
-                <div class="input-field">
-                    <input type="email" placeholder="Introduce tu email" required>
-                    <i class="fa-solid fa-user icon"></i>
-                </div>
+            <table align="center" id="table">
 
-                <div class="input-field">
-                    <input type="password" placeholder="Contraseña" required>
-                    <i class="fa-solid fa-lock icon"></i>
-                </div>
+                <tr>
+                    <td align="center"> <label per="Nombre"> Nombre: </label>
+                        <input type="text"; id="Nombre"; name="Nombre"> </td>
+                </tr>
+
+                <tr>
+                    <td align="center"> <label per="Apellidos"> Apellidos: </label>
+                        <input type="text"; id="Apellidos"; name="Apellidos"> </td>
+                </tr>
+
+                <tr>
+                    <td align="center"> <label per="Telefon"> Núm de tel: </label>
+                        <input type="text"; id="Telefono"; name="Telefon"> </td>
+                </tr>
+
+                <tr>
+                    <td align="center"> <label per="Sexo"> Sexo: </label>
+                        <label per="Hombre"> Hombre </label>
+                        <input type="checkbox"; id=Hombre>
+                        <label per="Mujer"> Mujer </label>
+                        <input type="checkbox"; id="Mujer">
+                        <label per="Otros"> Otros </label>
+                        <input type="checkbox"; id="Otros">
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td align="center"> <label per="Email"> Email: </label>
+                        <input type="email"; id="Email"; name="Email"> </td>
+                </tr>
+
+                <tr>
+                    <td align="center"> <label per="Contraseña"> Contraseña: </label>
+                        <input type="password"; id="contra"; name="Contraseña"> </td>
+                </tr>
+
+                <tr>
+                    <td align="center"> <label per="notif"> Quiero recibir notificaciones: </label>
+                        <input type="radio"; id="notif"; name="notif"> </td>
+                </tr>
 
 
-                <div class="checkbox-text">
-                    <div class="checkbox-content">
-                        <input type="checkbox" id="logCheck">
-                        <label
-                                for="logCheck" class="text"> Recuérdame </label>
-                    </div>
+            </table>
 
-                    <a href="" class="text">¿Has olvidado tu contraseña?</a>
-                </div>
 
                 <div class="input-field button">
-                    <input type="button" value="Iniciar Sesión">
+                    <input type="button" value="Registrarse">
                 </div>
 
             </form>
 
-            <div class="login-signup">
-					<span class="text"> ¿No tienes una cuenta?
-						<br>
-						<a href="formulario-registro2.html" class="text signup-text" target="_blank"><b>Crea una cuenta</b></a> </button>
-					</span>
-            </div>
+
         </div>
     </div>
 </div>
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <div class="col-md-4 d-flex align-items-center">
-            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-            </a>
-            <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Black Diamond, S.A.</span>
-        </div>
 
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-            <li class="ms-3"><a class="text-body-secondary" href="#"><img class="iconos" src="./img/signo-de-twitter.png" alt="Twitter"></a></li>
-            <li class="ms-3"><a class="text-body-secondary" href="#"><img class="iconos" src="./img/signo-de-instagram.png" alt="Instagram"></a></li>
-            <li class="ms-3"><a class="text-body-secondary" href="#"><img class="iconos" src="./img/signo-de-facebook.png" alt="Facebook"></a></li>
-        </ul>
-    </footer>
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Black Diamond, S.A.</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-body-secondary" href="#"><img class="iconos" src="./img/signo-de-twitter.png" alt="Twitter"></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><img class="iconos" src="./img/signo-de-instagram.png" alt="Instagram"></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><img class="iconos" src="./img/signo-de-facebook.png" alt="Facebook"></a></li>
+    </ul>
+</footer>
+
+
+
 </body>
-
 </html>
