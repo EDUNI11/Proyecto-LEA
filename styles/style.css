@@ -95,6 +95,28 @@ footer{
     float: right;
 }
 
+/* Inicio */
+
+.filtros{
+    padding: 20px;
+    float: right;
+    width: 20%;
+    position: relative;
+    bottom: 50px;
+}
+
+.recientes {
+    padding: 20px;
+    width: 70%;
+    font-family: sans-serif;
+}
+#novrec {
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+    font-family: sans-serif;
+}
 
 /*carrito*/
 
