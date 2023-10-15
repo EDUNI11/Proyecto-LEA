@@ -103,7 +103,8 @@ footer{
     float: right;
     width: 22%;
     position: relative;
-    bottom: 15em;
+    bottom: 25em;
+    left: 2em;
     margin-top: 0;
     margin-right: .5em;
     background-color: rgba(211, 211, 211, 0.35);
