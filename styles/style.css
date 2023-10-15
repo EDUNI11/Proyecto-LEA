@@ -102,6 +102,7 @@ footer{
     float: right;
     width: 15%;
     position: relative;
+    bottom: 15em;
     margin-top: 0;
 }
 
