@@ -189,6 +189,10 @@ footer{
     height: 32rem;
 }
 
+.boton-vermas{
+    margin-bottom: 3em;
+}
+
 
 #formulario{
     height: 100vh;
@@ -323,5 +327,26 @@ footer{
     margin-top: 30px;
     text-align: center;
 }
+.condiciones{
+    margin: auto;
+    margin-top: 0.5em;
+    text-align: center;
 
+}
+.divcond{
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    background-color: rgba(240, 240, 240, 0.27);
+    padding-left: 3em;
+    padding-right: 3em;
+    text-align:justify ;
+}
 
+.condlist{
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 0.3em;
+}
