@@ -98,24 +98,35 @@ footer{
 /* Inicio */
 
 .filtros{
-    padding: 20px;
+    padding: .5em;
     float: right;
-    width: 20%;
+    width: 15%;
     position: relative;
-    bottom: 50px;
+    margin-top: 0;
 }
 
 .recientes {
-    padding: 20px;
-    width: 70%;
+    text-align: center;
+    text-decoration: underline;
+    width: 84%;
     font-family: sans-serif;
+    float: left;
 }
 #novrec {
-    font-weight: 600;
-    background-color: black;
-    color: white;
-    padding: 10px 25px;
+    font-weight: bold;
+    padding: .6em .3em;
     font-family: sans-serif;
+}
+
+.enlaces-limpios{
+    text-decoration: none;
+    color: black;
+}
+
+.enlaces-limpios:hover{
+    font-weight: bold;
+    transform: scale(1.02);
+    color: rgba(0, 0, 0, 0.68);
 }
 
 /*carrito*/
@@ -147,10 +158,14 @@ footer{
     background-color: rgba(141, 141, 141, 0.42);
 }
 
+.todos-productos{
+    display: flex;
+    flex-direction: row;
+}
+
 .productos{
     text-align: center;
     width: 18em;
-    float: left;
     margin-left: 4.5em;
     margin-bottom: 2em;
     margin-top: 1.9em;
