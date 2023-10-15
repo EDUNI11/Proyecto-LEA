@@ -271,9 +271,25 @@ footer{
     border-top: 2px solid transparent;
 }
 
+.input-field textarea{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.1em;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+}
+
 .input-field input:is(:focus, :valid){
     border-bottom-color: #2f286a ;
 }
+
+.input-field textarea:is(:focus, :valid){
+    border-bottom-color: #2f286a ;
+}
+
 .input-field i{
     position: absolute;
     top: 50%;
@@ -285,6 +301,11 @@ footer{
 .input-field input:is(:focus, :valid)~ i{
     color: #72c8b4 ;
 }
+
+.input-field textarea:is(:focus, :valid)~ i{
+    color: #72c8b4 ;
+}
+
 .input-field i.icon{
     left: 0;
 
@@ -329,8 +350,7 @@ footer{
     color: #FFFF;
     background: linear-gradient(100deg, #B3E1D6, #433D78);
     letter-spacing: 1px;
-    border-radius: 7px;
-    font-size: 20px;
+    font-size: 1.3em;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -346,7 +366,6 @@ footer{
     margin: auto;
     margin-top: 0.5em;
     text-align: center;
-
 }
 
 .divcond{
