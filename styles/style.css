@@ -5,7 +5,7 @@ body{
 }
 
 #tamano-logo{
-    width: 3em;
+    width: 4em;
 }
 
 #lupa-busqueda{
@@ -417,4 +417,10 @@ footer{
     position: absolute;
     margin-left: 11em;
     z-index: 1;
+}
+
+#logo-inicio{
+    margin-left: 10%;
+    width: 60%;
+    margin-top: -20em;
 }
