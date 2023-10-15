@@ -333,12 +333,14 @@ footer{
     text-align: center;
 
 }
+
 .divcond{
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: center;
     align-items: center;
     height: auto;
-    width: 100%;
+    width: 75%;
     background-color: rgba(240, 240, 240, 0.27);
     padding-left: 3em;
     padding-right: 3em;
