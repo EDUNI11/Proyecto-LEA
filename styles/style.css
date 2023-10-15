@@ -386,3 +386,35 @@ footer{
     margin-right: 3em;
     margin-bottom: 0.3em;
 }
+
+.descripcion{
+    display: inline-block;
+}
+
+.precio{
+    float: right;
+    margin-right: .3em;
+    font-weight: bold;
+    margin-top: -1em;
+    color: green;
+}
+
+.precio-anterior{
+    float: right;
+    margin-right: 2em;
+    font-weight: bold;
+    margin-top: -1em;
+    color: grey;
+    text-decoration: line-through;
+}
+
+.porcentaje-descuento{
+    padding: .4em;
+    border-radius: .8em;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 11em;
+    z-index: 1;
+}
