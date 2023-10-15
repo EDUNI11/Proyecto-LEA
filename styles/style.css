@@ -109,6 +109,18 @@ footer{
     margin-right: .5em;
     background-color: rgba(211, 211, 211, 0.35);
 }
+
+.filtroscatalogo{
+    padding: .5em;
+    padding-bottom: .1em;
+    float: right;
+    width: 22%;
+    position: relative;
+    margin-top: 0;
+    margin-right: .5em;
+    background-color: rgba(211, 211, 211, 0.35);
+}
+
 #novrec {
     font-weight: bold;
     padding: .6em .3em;
