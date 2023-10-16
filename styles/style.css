@@ -513,3 +513,44 @@ footer{
 .fondo-oscuro{
     background-color: grey;
 }
+
+.restar-producto{
+    background-color: red;
+    font-weight: bold;
+    float: left;
+    width: 1.8em;
+    height: 1.8em;
+}
+
+.numero-productos{
+    float: left;
+    width: 3em;
+}
+
+.sumar-producto{
+    background-color: green;
+    font-weight: bold;
+    float: left;
+    width: 1.8em;
+    height: 1.8em;
+}
+
+.centrar-sumarproducto{
+    margin-left: 25%;
+    margin-top: 0.8em;
+    display: none;
+}
+
+.productos:hover .centrar-sumarproducto {
+    display: block;
+}
+
+.centrar-sumarproducto-descuento{
+    margin-left: 2%;
+    display: none;
+}
+
+.productos:hover .centrar-sumarproducto-descuento{
+    display: inline-block;
+}
+
